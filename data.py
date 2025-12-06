@@ -23,4 +23,8 @@ print(f"{yas2} yaşının veri tipi: {yas2Type}")
 # Float (float)-Ondalıklı Sayı Veri Tipi
 pi = 3.1416
 piType = (type(pi)) # <class 'float'>
+deger = 10.5
+deger2 = 3.8
 print(f"{pi} sayısının veri tipi: {piType}")
+print(deger + deger2) # Float veri tipinde toplama işlemi yapılabilir.
+# Float veri tipinde de artı ve eksi işaretleri kullanılabilir.
