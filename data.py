@@ -9,7 +9,7 @@ soyad = "Bitgi"
 tam_ad = ad + " " + soyad
 ikili = tam_ad * 2
 print(ikili) # String çoğaltma işi
-karakter = "🌹" # Char olayı Python 🐍 dilinde yoktur!
+karakter = "🌹" # Char olayı Python dilinde yoktur!
 
 # Integer (int)-Tam Sayı Veri Tipi
 yas = +15 # Eksi ve artı işaretleri kullanılabilir.
@@ -28,3 +28,39 @@ deger2 = 3.8
 print(f"{pi} sayısının veri tipi: {piType}")
 print(deger + deger2) # Float veri tipinde toplama işlemi yapılabilir.
 # Float veri tipinde de artı ve eksi işaretleri kullanılabilir.
+
+# Boolean (bool)-Mantıksal Veri Tipi
+dogruMu = True
+print(type(dogruMu)) # <class 'bool'>
+print(10>5) # True
+print(10>80) # False
+
+# Pratik yapalım!
+x = 10
+print(f"x'in veri tipi: {type(x)}") # <class 'int'>
+x = "Meeerhaba"
+print(f"x'in veri tipi: {type(x)}") # <class 'str'>
+
+a = 5
+b = "5"
+c = 5.0
+print(type(a)) # <class 'int'>
+print(type(b)) # <class 'str'>
+print(type(c)) # <class 'float'>
+
+
+d = 50
+e = "5"
+print(d + int(e)) # int() fonksiyonu string ifadeyi integer'a çevirir.
+
+f = 20
+g = "60"
+print(f + int(g)) # int() fonksiyonu string ifadeyi integer'a çevirir.
+h = 10
+i = 2.5
+topl = h + i
+print(f"Toplam: {topl}, Veri tipi: {type(topl)}") # <class 'float'>
+
+j = "250"
+k = int(j)
+print(k + 150)
