@@ -1,6 +1,6 @@
 not1 = int(input("İlk notunuzu giriniz: "))
 not2 = int(input("İkinci notunuzu giriniz: "))
 not3 = int(input("Üçüncü notunuzu giriniz: "))
-toplam = (not1 + not2 + not3)
-ortalama = round(toplam / 3,1)
+toplam = (not1 + not2 + not3) / 3
+ortalama = round(toplam, 1)
 print(f"Ortalaman...\n{ortalama}!")
