@@ -1,2 +1,3 @@
-# python
-KOMEK yazılım kursunda öğrendiğimiz her şeyin bulunduğu GitHub reposudur, istenildiği gibi alınıp kullanılabilir.
+# Python
+A repository dedicated to learining Python.
+**How to use it?**
