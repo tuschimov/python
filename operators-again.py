@@ -1,4 +1,3 @@
-"""
 kullaniciAdi = input("Lütfen kullanıcı adınızı giriniz:")
 sifre = input("Lütfen şifrenizi de giriniz:")
 if kullaniciAdi == "admin" and sifre == "1234":
@@ -12,4 +11,3 @@ if puan >= 500 or premiumHesap:
     print("Nutuk bedava geliyor. Kapına bak 🔥")
 else:
     print("Parasız enik 🐶")
-"""
