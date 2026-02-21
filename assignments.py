@@ -1,4 +1,7 @@
 # Bir uzay oyununda roket
+from typing import DefaultDict
+
+
 for i in range(11, 0, -1):
     print(i)
 print("Ateş")
@@ -32,3 +35,26 @@ for i in sinavSonuclari:
 # 1'den 10'a kadar kazanılan puanlar için karesini hesaplayan bir program
 for o in range(1, 11, 1):
     print(f"Seviye {o} - Kazanılan XP: {o**2}")
+
+# Bir oyuncu listesinde "Faker" isimli bir oyuncuyu arıyoruz.
+oyuncuListesi = ["Woot", "Omen", "Skay", "TenZ", "cNed", "Faker", "Alfajer"]
+for u in oyuncuListesi:
+    print("Kontrol ediliyor:", u)
+    if u == "Faker":
+        break
+print("Faker bulundu. Aramaya gerek kalmadı.")
+
+# Sohbetteki kelimeleri ekrana yazdırırken aradaki "spam" yazılı mesajları atlayayıp devam ettir (list.remove veya continue)
+mesajlar = ["Selamlar", "Napıyon?", "spam", "Müsait misin", "He tmm", "Oyuna gel"]
+for v in mesajlar:
+    if v == "spam":
+        continue
+    print(f"Gönderdiğin mesaj:{v}")
+
+# Kullanıcıdan istenilen bir kendini tanıtma metninde kaç tane 'a' harfi bulunduğunu yazdıralım!
+tanitimMetni = input("Kendini tanıt!\n")
+sayac = 0
+for b in tanitimMetni:
+    if b == "a" or b == "A":
+        sayac += 1
+        print(f"A harfi sayısı: {sayac}")
