@@ -71,3 +71,22 @@ while True:
         break
     else:
         print("1, 2 ve 3 arasından seçim yapınız...")
+
+while True:
+    print("---Hesap Makinesi---")
+    print("[1] Toplama\n[2] Çıkarma\n[3] Çarpma\n[4] Bölme\n[5] Çıkış")
+    islem = str(input("Birini seçiniz: "))
+    ilkSayi = int(input("İlk sayıyı giriniz: "))
+    ikinciSayi = int(input("İkinci sayıyı giriniz: "))
+    if islem == "5":
+        break
+    elif islem == "1":
+        print(ilkSayi+ikinciSayi)
+    elif islem == "2":
+        print(abs(ilkSayi - ikinciSayi))
+    elif islem == "3":
+        print(ilkSayi * ikinciSayi)
+    elif islem == "4":
+        print(ilkSayi/ikinciSayi)
+    else:
+        print("Ne yazdın lan?")
